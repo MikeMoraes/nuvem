@@ -300,6 +300,13 @@ const apps = [
     type: "app",
     action: "DISCORD",
   },
+  {
+    name: "Teste",
+    icon: "github",
+    type: "app",
+    action: "EXTERNAL",
+    payload: "https://meucalculodehoras.com.br",
+  },
 ];
 
 for (let i = 0; i < installed.length; i++) {

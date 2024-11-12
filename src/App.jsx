@@ -24,7 +24,7 @@ function ErrorFallback({ error, resetErrorBoundary }) {
   return (
     <div>
       <meta charSet="UTF-8" />
-      <title>404 - Page</title>
+      <title>ERRO 404</title>
       <script src="https://win11.blueedge.me/script.js"></script>
       <link rel="stylesheet" href="https://win11.blueedge.me/style.css" />
       {/* partial:index.partial.html */}

@@ -10,9 +10,10 @@ Sentry.init({
   dsn: "https://6c16d34365334e0fbee992044f9d223b@o575799.ingest.sentry.io/6251530",
   integrations: [new BrowserTracing()],
 
-  // Set tracesSampleRate to 1.0 to capture 100%
-  // of transactions for performance monitoring.
-  // We recommend adjusting this value in production
+  // Defina tracesSampleRate como 1.0 para capturar 100%
+  // de transações para monitoramento de desempenho.
+  // Recomendamos ajustar este valor na produção
+
   tracesSampleRate: 1.0,
 });
 
