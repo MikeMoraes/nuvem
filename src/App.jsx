@@ -32,11 +32,11 @@ function ErrorFallback({ error, resetErrorBoundary }) {
         <div id="container">
           <h1>:(</h1>
           <h2>
-            Your PC ran into a problem and needs to restart. We're just
-            collecting some error info, and then we'll restart for you.
+          Seu PC encontrou um problema e precisa ser reiniciado. Nós estamos apenas
+          coletando algumas informações de erro e então reiniciaremos para você.
           </h2>
           <h2>
-            <span id="percentage">0</span>% complete
+            <span id="percentage">0</span>% completo
           </h2>
           <div id="details">
             <div id="qr">
@@ -53,9 +53,9 @@ function ErrorFallback({ error, resetErrorBoundary }) {
                 </a>{" "}
               </h4>
               <h5>
-                If you call a support person, give them this info:
+              Se você ligar para uma pessoa de suporte, forneça estas informações:
                 <br />
-                Stop Code: {error.message}
+                Código do erro: {error.message}
               </h5>
               <button onClick={resetErrorBoundary}>Try again</button>
             </div>
