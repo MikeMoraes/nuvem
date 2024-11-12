@@ -13,7 +13,7 @@
       content="Win11 made in React"
     />
     <meta name="og:color" content="#303030" />
-    <link rel="apple-touch-icon" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/nuvem.gif" />
     <link rel="manifest" href="/manifest.json" />
     <meta name="description" content="Win11 made in React" />
     <title>SISTEMA NUVEM</title>
@@ -37,25 +37,7 @@
       );
     </script>
 
-<script>
-  // Função para ativar o modo tela cheia
-  function entrarEmTelaCheia() {
-    if (document.documentElement.requestFullscreen) {
-      document.documentElement.requestFullscreen();
-    } else if (document.documentElement.mozRequestFullScreen) { // Firefox
-      document.documentElement.mozRequestFullScreen();
-    } else if (document.documentElement.webkitRequestFullscreen) { // Chrome, Safari e Opera
-      document.documentElement.webkitRequestFullscreen();
-    } else if (document.documentElement.msRequestFullscreen) { // IE/Edge
-      document.documentElement.msRequestFullscreen();
-    }
-  }
 
-  // Tenta ativar a tela cheia ao carregar a página
-  window.onload = () => {
-    entrarEmTelaCheia();
-  };
-</script>
   </body>
 </html>
 
