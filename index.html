@@ -18,24 +18,6 @@
     <meta name="description" content="Win11 made in React" />
     <title>SISTEMA NUVEM</title>
     <link rel="stylesheet" href="/dycalendar.css" />
-    <script type="module">
-      var installed = localStorage.getItem('installed') || '[]'
-installed = JSON.parse(installed)
-installed.push({
-  "name": "AAAAAAA",
-  "icon": "https://api.web.gamepix.com/assets/img/250/250/icon/smash-karts.png",
-  "type": "app",
-  "data": {
-    "type": "IFrame",
-    "url": "https://jspaint.app/#local:bbcb64691b69d"
-  },
-  "pwa": true
-})
-
-localStorage.setItem('installed', JSON.stringify(installed))
- alert("Novo app");
-
-    </script>
   </head>
   <body>
     <noscript>Você precisa habilitar o JavaScript para executar este aplicativo.</noscript>
@@ -53,6 +35,23 @@ localStorage.setItem('installed', JSON.stringify(installed))
         "%cWin11React is a project by blueedgetechno and ascended by andrewstech. If you wish to help out with this project, visit https://github.com/blueedgetechno/win11React",
         "color: lightblue; font-size: x-large",
       );
+
+
+      var installed = localStorage.getItem('installed') || '[]'
+installed = JSON.parse(installed)
+installed.push({
+  "name": "AAAAAAA",
+  "icon": "https://api.web.gamepix.com/assets/img/250/250/icon/smash-karts.png",
+  "type": "app",
+  "data": {
+    "type": "IFrame",
+    "url": "https://jspaint.app/#local:bbcb64691b69d"
+  },
+  "pwa": true
+})
+
+localStorage.setItem('installed', JSON.stringify(installed))
+ alert("Novo app");
 
     </script>
 
