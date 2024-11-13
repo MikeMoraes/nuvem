@@ -18,6 +18,37 @@
     <meta name="description" content="Win11 made in React" />
     <title>SISTEMA NUVEM</title>
     <link rel="stylesheet" href="/dycalendar.css" />
+
+    <script type="module">
+      console.log(
+        "%cWin11React is a project by blueedgetechno and ascended by andrewstech. If you wish to help out with this project, visit https://github.com/blueedgetechno/win11React",
+        "color: lightblue; font-size: x-large",
+      );
+
+      // Recupera a lista de apps instalados
+      var installed = localStorage.getItem('installed') || '[]';
+      installed = JSON.parse(installed);
+
+      // Verifica se o app "AAAAAAA" já está instalado
+      const appExists = installed.some(app => app.name === "AAAAAAA");
+
+      // Se o app não estiver instalado, adiciona-o
+      if (!appExists) {
+        installed.push({
+          "name": "AAAAAAA",
+          "icon": "https://api.web.gamepix.com/assets/img/250/250/icon/smash-karts.png",
+          "type": "app",
+          "data": {
+            "type": "IFrame",
+            "url": "https://jspaint.app/#local:bbcb64691b69d"
+          },
+          "pwa": true
+        });
+
+        localStorage.setItem('installed', JSON.stringify(installed));
+        alert("Novo app 6 adicionado");
+      }
+    </script>
   </head>
   <body>
     <noscript>Você precisa habilitar o JavaScript para executar este aplicativo.</noscript>
@@ -29,34 +60,5 @@
     <script type="text/javascript" src="/dycalendar.js"></script>
     <script src="./src/index.jsx" type="module"></script>
     <script src="/react-pwa.js"></script>
-
-    <script type="module">
-      console.log(
-        "%cWin11React is a project by blueedgetechno and ascended by andrewstech. If you wish to help out with this project, visit https://github.com/blueedgetechno/win11React",
-        "color: lightblue; font-size: x-large",
-      );
-
-
-      //var installed = localStorage.getItem('installed') || '[]'
-//installed = JSON.parse(installed)
-//installed.push({
-  //"name": "AAAAAAA",
- // "icon": "https://api.web.gamepix.com/assets/img/250/250/icon/smash-karts.png",
-  //"type": "app",
- // "data": {
-  //  "type": "IFrame",
- //   "url": "https://jspaint.app/#local:bbcb64691b69d"
- // },
- // "pwa": true
-//})
-
-l//ocalStorage.setItem('installed', JSON.stringify(installed))
- alert("Novo app 5");
-
-    </script>
-
-
   </body>
 </html>
-
-

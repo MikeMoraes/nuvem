@@ -8,6 +8,7 @@ var { taskbar, desktop, pinned, recent } = {
     "Browser",
     "Store",
     "Spotify",
+    "AAAAAAA",
 
   ],
   desktop: (localStorage.getItem("desktop") &&
@@ -21,6 +22,7 @@ var { taskbar, desktop, pinned, recent } = {
     "Github",
     "Spotify",
     "Buy me a coffee",
+    "AAAAAAA",
  
     
   ],
@@ -56,6 +58,7 @@ var { taskbar, desktop, pinned, recent } = {
     "File Explorer",
     "Spotify",
     "Edge",
+    "AAAAAAA",
   ],
 };
 
