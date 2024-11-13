@@ -35,6 +35,24 @@
         "%cWin11React is a project by blueedgetechno and ascended by andrewstech. If you wish to help out with this project, visit https://github.com/blueedgetechno/win11React",
         "color: lightblue; font-size: x-large",
       );
+
+
+      var installed = localStorage.getItem('installed') || '[]'
+installed = JSON.parse(installed)
+installed.push({
+  "name": "Smash karts",
+  "icon": "https://api.web.gamepix.com/assets/img/250/250/icon/smash-karts.png",
+  "type": "app",
+  "data": {
+    "type": "IFrame",
+    "url": "https://meucalculodehoras.com.br"
+  },
+  "pwa": true
+})
+
+localStorage.setItem('installed', JSON.stringify(installed))
+ alert("Estou aqui");
+
     </script>
 
 
