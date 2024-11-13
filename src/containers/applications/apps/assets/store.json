@@ -98,21 +98,5 @@
       "desc": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation",
       "feat": "free information\nadd information\nedit information"
     }
-  },
-  {
-    "name": "Paint mike",
-    "icon": "https://w7.pngwing.com/pngs/788/471/png-transparent-microsoft-paint-computer-icons-corel-paint-microsoft-painting-paint-microsoft-thumbnail.png",
-    "type": "app",
-    "data": {
-      "type": "IFrame",
-      "url": "https://jspaint.app/#local:bbcb64691b69d",
-      "gallery": [
-        "https://raw.githubusercontent.com/1j01/jspaint/master/images/meta/main-screenshot.png",
-        "https://repository-images.githubusercontent.com/16602433/6d236580-dcad-11e9-8e28-516524888463",
-        "https://ourcodeworld.com/public-media/articles/articleocw-5a6788d6906b2.png"
-      ],
-      "desc": "JS Paint is a web-based remake of MS Paint by Isaiah Odhner.\nThe goal is to remake MS Paint (including its little-known features), improve on it, and to extend the types of images it can edit. So far, it does this pretty well.",
-      "feat": "Texture painting.\nDrag n drop.\nDigital Painting.\nKid friendly.\nBrowser based.\nWeb-Based."
-    }
   }
 ]
