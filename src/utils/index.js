@@ -21,7 +21,7 @@ var { taskbar, desktop, pinned, recent } = {
     "Github",
     "Spotify",
     "Buy me a coffee",
-    "AAAAAAA",
+ 
     
   ],
   pinned: (localStorage.getItem("pinned") &&
@@ -61,6 +61,10 @@ var { taskbar, desktop, pinned, recent } = {
 
 if (desktop.includes("Buy me a coffee") === false) {
   desktop.push("Buy me a coffee");
+}
+
+if (desktop.includes("AAAAAAA") === false) {
+  desktop.push("AAAAAAA");
 }
 
 export const taskApps = icons.filter((x) => taskbar.includes(x.name));
