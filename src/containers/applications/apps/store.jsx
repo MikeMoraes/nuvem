@@ -117,7 +117,7 @@ export const MicroStore = () => {
       var url = queryParams.get("customstore");
       if (!url)
         url =
-          "https://janela.beevariedade.com.br/loja.json";
+          "https://nuvem-two.vercel.app/loja.json";
 
       axios
         .get(url)
