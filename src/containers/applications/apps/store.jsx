@@ -117,7 +117,7 @@ export const MicroStore = () => {
       var url = queryParams.get("customstore");
       if (!url)
         url =
-          "https://raw.githubusercontent.com/win11react/store/main/store/index.json";
+          "https://meucalculodehoras.com.br/janela/index.json";
 
       axios
         .get(url)
