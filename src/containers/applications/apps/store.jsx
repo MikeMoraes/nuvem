@@ -117,7 +117,7 @@ export const MicroStore = () => {
       var url = queryParams.get("customstore");
       if (!url)
         url =
-          "http://janela.beevariedade.com.br/index.json";
+          "https://janela.beevariedade.com.br/loja.json";
 
       axios
         .get(url)
