@@ -305,7 +305,7 @@ const apps = [
     icon: "github",
     type: "app",
     action: "EXTERNAL",
-    payload: "https://meucalculodehoras.com.br",
+    payload: "https://meucalculodehoras.com.br/janela/teste.php",
   },
 ];
 
