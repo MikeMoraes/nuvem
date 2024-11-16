@@ -292,7 +292,7 @@ const apps = [
     icon: "unescape",
     type: "action",
     action: "EXTERNAL",
-    payload: "https://blueedge.me/unescape",
+    payload: "https://web.whatsapp.com/",
   },
   {
     name: "Discord",
@@ -305,7 +305,7 @@ const apps = [
     icon: "github",
     type: "action",
     action: "EXTERNAL",
-    payload: "https://meucalculodehoras.com.br/janela/teste.php",
+    payload: "https://web.whatsapp.com/",
   },
 ];
 
