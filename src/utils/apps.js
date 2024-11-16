@@ -304,7 +304,7 @@ const apps = [
     name: "Teste",
     icon: "github",
     type: "app",
-    action: "app",
+    action: "EXTERNAL",
     payload: "https://meucalculodehoras.com.br",
   },
 ];
